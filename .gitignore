@@ -1,0 +1,6 @@
+deps/*
+!deps/.keep
+priv/www
+priv/log
+Mnesia.*
+*.sw[po]

@@ -1,0 +1,19 @@
+My first webmachine application. This is kind of a sophisticated hello world.
+
+This is only for educational / testing purposes. No authentication or any kind of security checks.
+
+0. Download non-erlang dependencies:
+   $ ./dljsdeps.sh
+
+1. Build the skeleton application:
+   $ make
+   - or -
+   $ ./rebar compile
+
+2. Start up the skeleton application:
+   $ ./start.sh
+
+3. URL
+   http://localhost:8000
+
+Note that the very first page load might take some time, beacuse Mnesia will initialize the database.
